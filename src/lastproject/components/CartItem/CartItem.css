@@ -1,0 +1,123 @@
+.cartitem{
+    margin: 100px 170px;
+}
+.cartitem hr{
+   
+    border: 0;
+    height: 3px;
+    background: #c7c7c7;
+}
+.cartitem-format-main{
+
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 80px;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 600;
+}
+.cartitem-format{
+    font-size: 17px;
+    font-weight: 500;
+
+}
+.carticon-product-icon{
+    height: 64px;
+}
+.cartitem-remove-icon{
+    width: 20px;
+    margin: 0px 40px;
+    cursor: pointer;
+
+}
+.cartitem-quantity{
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #5a4f4f;
+    background: #5a4f4f;
+    color: white;
+    border-radius: 75px;
+    padding: 5px 10px;
+}
+.cartitem-down{
+    display: flex;
+    margin: 100px 0px;
+}
+.cartitem-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+    gap: 45px;
+    padding-top:30px ;
+}
+.cartitem-total-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15x 0px;
+    color: #454545;
+
+}
+.cartitem-total button{
+    width: 263px;
+    height: 50px;
+    border: none;
+    border-radius: 75px;
+    outline: none;
+    background: red;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+
+
+
+}
+.cartitem-promocode{
+
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.cartitem-promocode p{
+    color: #454545;
+}
+.cartitem-promobox{
+    width: 504px;
+    margin-top: 15px;
+    padding-left: 20px;
+    height: 59px;
+    background: white;
+}
+.cartitem-promobox input{
+    border-radius: 10px;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    width: 330px;
+    height: 50px;
+    border: 1px   solid black;
+
+}
+.cartitem-remove-icon{
+    background:red;
+}
+.cartitem-promobox button{
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 75px;
+    outline: none;
+    background: black;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 10px;
+}

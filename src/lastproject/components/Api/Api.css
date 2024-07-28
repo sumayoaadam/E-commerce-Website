@@ -1,0 +1,19 @@
+div h1{
+    font-size: 50px;
+   text-align: center;
+}
+.Api ul {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    text-align: center;
+  
+
+}
+
+.Api ul li {
+    display: block;
+   
+}
